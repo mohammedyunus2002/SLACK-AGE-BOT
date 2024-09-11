@@ -24,19 +24,3 @@ To get started with this Slack bot, follow these steps:
    ```bash
    git clone https://github.com/mohammedyunus2002/demo-repo.git
    cd demo-repo
-`
-   ### Environment Variables
-
-   Set up the following environment variables:
-   
-   `env
-   SLACK_BOT_TOKEN=xoxb-YOUR-BOT-TOKEN
-   SLACK_APP_TOKEN=xapp-YOUR-APP-TOKEN
-   ``
-   
-   ### Run the app
-   ``bash
-   go mod tidy
-   go run main.go
-   ```
-
